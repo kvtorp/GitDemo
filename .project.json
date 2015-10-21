@@ -13,7 +13,7 @@
     "resourceModelName": "i18n"
   },
   "mockpreview": {
-    "mockUri": "/sap/opu/odata/IWFND/CATALOGSERVICE/sap/ZSCANNER_SRV/",
+    "mockUri": "/sap/opu/odata/sap/ZSCANNER_SRV/",
     "metadataFilePath": "",
     "loadJSONFiles": false,
     "loadCustomRequests": false,
@@ -373,6 +373,6 @@
   "hcpdeploy": {
     "account": "s0007342869trial",
     "name": "scanner4",
-    "lastVersionWeTriedToDeploy": "1.0.0"
+    "lastVersionWeTriedToDeploy": "1.0.1"
   }
 }
