@@ -42,8 +42,8 @@ com.nnit.demo.scanner.util.Controller.extend("com.nnit.demo.scanner.view.Master"
 		cordova.plugins.barcodeScanner.scan(
 			function(result) {
 				code = result.text;
-				alert("Scanned: " + code);
-				return;
+				//alert("Scanned: " + code);
+				//return;
 				
 				that.getView().byId("searchField").setValue(code);
 				that.onSearch();
