@@ -4,16 +4,16 @@
 			<ObjectHeader number="" numberUnit="" title="{Content}">
 				<ObjectAttribute text="{Barcode}"/>
 			</ObjectHeader>
-			<!--IconTabBar id="idIconTabBar" select="onDetailSelect">
+			<IconTabBar id="idIconTabBar" select="onDetailSelect">
 				<items>
 					<IconTabFilter icon="sap-icon://hint" key="" text="">
-						<!- key="Detail" ->
+						<!-- key="Detail" -->
 						<content>
 							<core:Fragment fragmentName="com.nnit.demo.scanner.view.DetailInfoForm" type="XML"/>
 						</content>
 					</IconTabFilter>
 				</items>
-			</IconTabBar-->
+			</IconTabBar>
 		</content>
 		<footer>
 			<Toolbar></Toolbar>
